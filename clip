@@ -1,0 +1,6 @@
+from Gate import Gate, BinaryLogic, Line
+A = Line("A", 0)
+B = Line("B", 0)
+XOR = Gate("XOR", [A, B])
+AND = Gate("AND", [A, B])
+XOR.evaluate()
